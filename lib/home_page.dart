@@ -35,6 +35,7 @@ class _HomePageState extends State<HomePage> {
                   hintText: 'Bill amount',
                 ),
                 controller: billAmountController,
+                keyboardType: TextInputType.number,
               ),
             ),
           ),
